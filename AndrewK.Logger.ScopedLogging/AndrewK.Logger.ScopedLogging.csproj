@@ -5,20 +5,37 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <PackageId>AndrewK.Logger.ScopedLogging</PackageId>
-        <Version>0.9.0</Version>
+        <Version>1.0.0</Version>
         <Authors>Andrew Kud</Authors>
         <Product>ScopedLogging</Product>
         <Title>AndrewK.Logger.ScopedLogging</Title>
         <Description>Makes it possible to easily write scoped parameters to all log messages in the scope area</Description>
         <PackageDescription>Makes it possible to easily write scoped parameters to all log messages in the scope area</PackageDescription>
         <PackageTags>Logger</PackageTags>
-        <AssemblyVersion>0.9.0</AssemblyVersion>
-        <FileVersion>0.9.0</FileVersion>
+        <AssemblyVersion>1.0.0</AssemblyVersion>
+        <FileVersion>1.0.0</FileVersion>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageIcon>assets\Icon.png</PackageIcon>
+        <RepositoryUrl>https://github.com/KudAndrii/ScopedLogging</RepositoryUrl>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
     </PropertyGroup>
 
     <ItemGroup>
       <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.2" />
       <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Content Include="README.md">
+            <Pack>true</Pack>
+            <PackagePath>\</PackagePath>
+        </Content>
+        <Content Include="LICENSE">
+            <Pack>true</Pack>
+            <PackagePath>\</PackagePath>
+        </Content>
     </ItemGroup>
 
 </Project>
