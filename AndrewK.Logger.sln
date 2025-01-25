@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndrewK.Logger.ScopedLogging", "AndrewK.Logger.ScopedLogging\AndrewK.Logger.ScopedLogging.csproj", "{EB069FA0-3BCA-4A16-BC40-E5611D0FF0F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FB1304E8-F521-4F27-990E-CB370A0E2332}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		global.json = global.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB069FA0-3BCA-4A16-BC40-E5611D0FF0F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB069FA0-3BCA-4A16-BC40-E5611D0FF0F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB069FA0-3BCA-4A16-BC40-E5611D0FF0F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB069FA0-3BCA-4A16-BC40-E5611D0FF0F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
