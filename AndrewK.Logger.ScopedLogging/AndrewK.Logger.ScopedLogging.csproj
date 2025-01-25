@@ -5,27 +5,23 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <PackageId>AndrewK.Logger.ScopedLogging</PackageId>
-        <Version>1.0.0</Version>
+        <Version>1.0.1</Version>
         <Authors>Andrew Kud</Authors>
         <Product>ScopedLogging</Product>
         <Title>AndrewK.Logger.ScopedLogging</Title>
         <Description>Makes it possible to easily write scoped parameters to all log messages in the scope area</Description>
         <PackageDescription>Makes it possible to easily write scoped parameters to all log messages in the scope area</PackageDescription>
         <PackageTags>Logger</PackageTags>
-        <AssemblyVersion>1.0.0</AssemblyVersion>
-        <FileVersion>1.0.0</FileVersion>
+        <AssemblyVersion>1.0.1</AssemblyVersion>
+        <FileVersion>1.0.1</FileVersion>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageProjectUrl>https://github.com/KudAndrii/ScopedLogging</PackageProjectUrl>
         <RepositoryUrl>https://github.com/KudAndrii/ScopedLogging</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <PackageIcon>Icon.png</PackageIcon>
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
     </PropertyGroup>
-
-    <ItemGroup>
-        <PackageRepositoryUrl>https://github.com/KudAndrii/ScopedLogging</PackageRepositoryUrl>
-        <PackageRepositoryType>git</PackageRepositoryType>
-    </ItemGroup>
 
     <ItemGroup>
       <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.2" />
