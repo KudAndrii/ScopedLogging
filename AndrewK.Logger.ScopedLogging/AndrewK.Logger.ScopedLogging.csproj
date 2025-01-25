@@ -16,10 +16,16 @@
         <FileVersion>1.0.0</FileVersion>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <RepositoryUrl>https://github.com/KudAndrii/ScopedLogging</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
         <PackageIcon>Icon.png</PackageIcon>
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
     </PropertyGroup>
+
+    <ItemGroup>
+        <PackageRepositoryUrl>https://github.com/KudAndrii/ScopedLogging</PackageRepositoryUrl>
+        <PackageRepositoryType>git</PackageRepositoryType>
+    </ItemGroup>
 
     <ItemGroup>
       <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.2" />
