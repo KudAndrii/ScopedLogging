@@ -15,10 +15,9 @@
         <AssemblyVersion>1.0.0</AssemblyVersion>
         <FileVersion>1.0.0</FileVersion>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <PackageIcon>assets\Icon.png</PackageIcon>
         <RepositoryUrl>https://github.com/KudAndrii/ScopedLogging</RepositoryUrl>
+        <PackageIcon>Icon.png</PackageIcon>
         <PackageReadmeFile>README.md</PackageReadmeFile>
-        <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
     </PropertyGroup>
 
@@ -28,6 +27,10 @@
     </ItemGroup>
 
     <ItemGroup>
+        <Content Include="Icon.png">
+            <Pack>true</Pack>
+            <PackagePath>\</PackagePath>
+        </Content>
         <Content Include="README.md">
             <Pack>true</Pack>
             <PackagePath>\</PackagePath>
