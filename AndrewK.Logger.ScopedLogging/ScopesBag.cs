@@ -17,15 +17,11 @@ namespace AndrewK.Logger.ScopedLogging;
 /// <code>
 ///     using (var scopesBag = logger.InitScopes())
 ///     {
-///         logger.LogInformation(...); // MethodName will be appended
-/// 
 ///         scopesBag.AppendScope("First", first);
-///         logger.LogInformation(...); // MethodName and First will be appended
+///         logger.LogInformation(...); // First will be appended
 ///
-///         // MethodName, First and Second will be appended
-///         scopesBag.AppendScope("Second", second).LogInformation(...);
-///
-///         logger.LogInformation(...) // MethodName and First will be appended
+///         scopesBag.AppendScope("Second", second);
+///         logger.LogInformation(...) // First and Second will be appended
 ///     }
 /// </code>
 /// </example>
