@@ -58,7 +58,10 @@ public sealed class ScopesBag<TCategoryName> : IDisposable
                     (object?)JsonConvert.SerializeObject(pair.PropertyValue) ??
                     string.Empty);
 
-        var scope = _scopeCreator.BeginScope(parameters);
+        var scopeMessage = parameters.Count > 0
+            ? "Scope with params: " + string.Join(", ", parameters.Select(x => $"{{{x.Key}}}"))
+            : "Scope without params";
+        var scope = _scopeCreator.BeginScope(scopeMessage, parameters.Values.ToArray());
 
         AppendScope(scope);
 
