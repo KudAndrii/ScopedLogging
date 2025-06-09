@@ -19,13 +19,13 @@ It provides extension methods for `ILogger<T>` to simplify adding contextual inf
 You can install the package via NuGet (replace with actual package name if published):
 
 ```sh
-  dotnet add package KudAndrii.Logger.ScopedLogging
+  dotnet add package AndrewK.Logger.ScopedLogging
 ```
 
 Then, include the necessary namespace in your project:
 
 ```csharp
-using KudAndrii.Logger.ScopedLogging.Extensions;
+using AndrewK.Logger.ScopedLogging.Extensions;
 ```
 
 ---
@@ -144,14 +144,11 @@ using (var scopesBag = logger.InitScopes(("UserId", 12345), ("Role", "Admin")))
 
 ## Best Practices
 
-- **Use short-lived scopes:**  
-  Always wrap scopes in `using` statements to ensure proper disposal.
+- **Always wrap scopes in `using` statements to ensure proper disposal.**
 
-- **Minimize scope size:**  
-  Avoid adding too many properties to prevent performance overhead.
+- **Avoid adding too many properties to prevent performance overhead.**
 
-- **Consistent naming:**  
-  Use a consistent naming pattern for scoped properties to improve log readability.
+- **Use a consistent naming pattern for scoped properties to improve log readability.**
 
 ---
 
